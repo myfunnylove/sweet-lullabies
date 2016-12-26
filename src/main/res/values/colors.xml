@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Theme - Dark Blue -->
+    <color name="mp.theme.dark_blue.background">#FFFFFF</color>
+    <color name="mp.theme.dark_blue.gradientColor">#FFFFFF</color>
+    <color name="mp.theme.dark_blue.colorControlActivated">#E91E63</color>
+    <color name="mp.theme.dark_blue.colorControlHighlight">#E91E63</color>
+
+    <color name="mp.theme.dark_blue.colorPrimary">#FFFFFF</color>
+    <color name="mp.theme.dark_blue.colorPrimaryDark">#E91E63</color>
+    <color name="mp.theme.dark_blue.colorAccent">#FFFFFF</color>
+    <color name="mp.theme.dark_blue.textColorPrimary">#424242</color>
+    <color name="mp.theme.dark_blue.textColorSecondary">#757575</color>
+
+    <color name="mp.theme.dark_blue.actionMode.statusBarColor">#FFFFFF</color>
+    <color name="mp.theme.dark_blue.actionMode.background">#7AFFFFFF</color>
+
+    <color name="mp.line">#E91E63</color>
+    <color name="mp.list.background">#FFFFFF</color>
+    <color name="mp.list.background.selected">#E91E63</color>
+    <color name="mp.list.scrollThumb">#757575</color>
+    <color name="mp.list.text.title">#757575</color>
+    <color name="mp.list.text.title.selected">#E91E63</color>
+    <color name="mp.list.text.hint">#757575</color>
+    <color name="mp.list.text.hint.selected">#757575</color>
+
+    <color name="mp.popupMenu.background">#424242</color>
+
+    <color name="mp.text.hint">#757575</color>
+
+    <!-- Segmented Control -->
+    <color name="mp.widget.segmented.default">?attr/colorAccent</color>
+    <color name="mp.widget.segmented.checked">#3C5F78</color>
+
+    <!-- CharacterView -->
+    <color name="mp.characterView.background">#7AFFFFFF</color>
+    <color name="mp.characterView.textColor">@color/mp.list.text.title</color>
+</resources>

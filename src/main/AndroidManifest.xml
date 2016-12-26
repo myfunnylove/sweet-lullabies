@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myfunnylove.locidnet.lullaby">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/mp.app.name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".M"
+        android:largeHeap="true"
+        >
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN"/>-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+        <!--android:label="@string/mp.activity.title.file_system"-->
+        <!--android:name=".ui.local.filesystem.FileSystemActivity"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--/>-->
+        <activity
+            android:name=".ui.details.PlayListDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".player.PlaybackService">
+            <intent-filter>
+                <action android:name="myfunnylove.locidnet.lullaby.ACTION.PLAY_TOGGLE"/>
+                <action android:name="myfunnylove.locidnet.lullaby.ACTION.PLAY_NEXT"/>
+                <action android:name="myfunnylove.locidnet.lullaby.ACTION.PLAY_LAST"/>
+                <action android:name="myfunnylove.locidnet.lullaby.ACTION.STOP_SERVICE"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".ui.settings.AlarmReceiver"  android:enabled="true"/>
+        <service android:name=".ui.settings.AlarmService" />
+
+    </application>
+
+</manifest>

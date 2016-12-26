@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573473096129",
+    "firebase_url": "https://lullaby-for-babies.firebaseio.com",
+    "project_id": "lullaby-for-babies",
+    "storage_bucket": "lullaby-for-babies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573473096129:android:c45ea2640035f304",
+        "android_client_info": {
+          "package_name": "myfunnylove.locidnet.lullaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573473096129-fkrc2h3jj1bo480on61ehoa72cjgf9lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myfunnylove.locidnet.lullaby",
+            "certificate_hash": "4E87C292CEFBB31A087CDAE041624944A91C282B"
+          }
+        },
+        {
+          "client_id": "573473096129-m5r8d5356t79okdvhsm1r8ppvjo947nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkS4goaZaLWrzaoTEYtP_hrOc3F7Ri_os"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573473096129-m5r8d5356t79okdvhsm1r8ppvjo947nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

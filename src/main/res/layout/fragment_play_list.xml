@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+
+    >
+
+    <View
+        android:id="@+id/divider"
+        style="@style/MP.Theme.Widget.Divider.Line.Vertical"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        style="@style/MP.Theme.Widget.RecyclerView"
+        android:layout_below="@+id/divider"
+        android:paddingTop="@dimen/mp.padding.large"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_play_list"
+        android:background="@color/transparent"
+
+        />
+
+    <ProgressBar
+        style="@style/MP.Theme.Widget.ProgressBar"/>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity"
+    android:fitsSystemWindows="true"
+    android:background="@color/transparent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/space"
+        android:scaleType="centerCrop"
+        />
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        >
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--xmlns:toolbar="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--toolbar:titleTextAppearance="@style/MP.Theme.TextAppearance.Light.Toolbar.Title"-->
+            <!--toolbar:title="@string/mp.app.name"-->
+            <!--tools:targetApi="honeycomb"-->
+            <!--android:background="@color/transparent"-->
+            <!--&gt;-->
+
+
+
+        <!--</android.support.v7.widget.Toolbar>-->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40000000"
+            app:tabTextColor="@color/white"
+            app:tabSelectedTextColor="@color/mp.theme.dark_blue.colorPrimaryDark"
+
+            />
+    </android.support.design.widget.AppBarLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:fillViewport="true"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--android:background="@color/transparent"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--&gt;-->
+        <!--<include-->
+
+            <!--layout="@layout/layout_main_custom_toolbar"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:orientation="vertical"
+            >
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_below="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    <!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="mp.app.name">Doux berceuses</string>
+
+    <string name="mp.list.layoutManager.linear">LinearLayoutManager</string>
+
+    <!-- Common -->
+
+    <string name="mp.cancel">Annulation</string>
+    <string name="mp.Confirm">Confirmer</string>
+
+    <!-- Activity/Fragment Titles -->
+    <string name="mp.fragment.title.play_list">Playlist</string>
+    <string name="mp.fragment.title.music">Musique</string>
+    <string name="mp.fragment.title.local_files">élu</string>
+    <string name="mp.fragment.title.settings">Minuteur</string>
+
+    <string name="mp.activity.title.file_system">SDCard</string>
+
+    <!-- Play Lists -->
+    <string name="mp.play_list.favorite">élu</string>
+    <string name="mp.play_list.footer.add">Ajouter playlist</string>
+    <string name="mp.play_list.footer.end_summary_formatter">%d playlists</string>
+
+    <string name="mp.play_list.create">Liste de lecture Creative</string>
+    <string name="mp.play_list.created">%s établi</string>
+    <string name="mp.play_list.edit">Édition playlist</string>
+    <string name="mp.play_list.dialog.hint">le nom de la playlist</string>
+    <string name="mp.play_list.dialog.add_to">Ajouter à la playlist</string>
+
+    <plurals name="mp_play_list_items_formatter">
+        <item quantity="one">%d chanson</item>
+        <item quantity="other">%d chansons</item>
+    </plurals>
+
+    <!-- Play Lists - Details -->
+    <string name="mp.play_list.details.empty">ici ñ\'y a pas de musique!</string>
+    <string name="mp.play_list.details.footer.end_summary_formatter">%d chansons</string>
+
+    <!-- Main -->
+    <string-array name="mp_main_titles">
+        <item>@string/mp.fragment.title.play_list</item>
+        <item>@string/mp.fragment.title.music</item>
+        <item>@string/mp.fragment.title.local_files</item>
+        <item>@string/mp.fragment.title.settings</item>
+    </string-array>
+
+    <!-- Music -->
+
+    <string name="mp.music.default_duration">00:00</string>
+
+    <!-- Local Files -->
+    <string name="mp.local_files.segmented.all">All</string>
+    <string name="mp.local_files.segmented.folder">Folder</string>
+
+    <string name="mp.local_files.music_list.empty">No music found on this device</string>
+    <string name="mp.local_files.music_list.end_summary_formatter">%d songs in total</string>
+    <string name="mp.local_files.folder_list.end_summary_formatter">%d folders in total</string>
+    <string name="mp.local_files.folder_list.item_info_formatter" formatted="false">%d songs | %s</string>
+    <string name="mp.local_files.folder_list.add_folder">Add Folder</string>
+
+    <string name="mp.local_files.file_system.empty">No files under this directory</string>
+    <string name="mp.local_files.file_system.menu.done">Done</string>
+
+     Local Files - File System
+    <plurals name="mp_folders_created_formatter">
+        <item quantity="one">%d new folder created</item>
+        <item quantity="other">%d new folders created</item>
+    </plurals>
+    <plurals name="mp_directory_items_formatter">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+    <plurals name="mp_selected_folders_formatter">
+        <item quantity="one">%d folder selected</item>
+        <item quantity="other">%d folders selected</item>
+    </plurals>
+
+    <!-- Menu -->
+    <string name="mp.menu.add_to_play_list">Ajouter à la playlist</string>
+    <string name="mp.menu.create_play_list">Créer une playlist</string>
+    <string name="mp.menu.refresh">Refresh</string>
+    <string name="mp.menu.play_now">Joue maintenant</string>
+    <string name="mp.menu.rename">Rebaptiser</string>
+    <string name="mp.menu.delete">Effacer</string>
+
+
+    <string name="name1">Angel eyes</string>
+    <string name="name2">Les bébés sont un don de Dieu</string>
+    <string name="name3">Doux mystère de la vie</string>
+    <string name="name4">>Ensemble d\'amour!</string>
+    <string name="name5">Petite princesse de papa</string>
+    <string name="name6">Future ballerine</string>
+    <string name="name7">J\'aime ma maman</string>
+    <string name="name8">Petite chérie</string>
+    <string name="name9">Nighty Nuit!</string>
+    <string name="name10">Notre nouvel amour</string>
+    <string name="name11">Heure de dormir</string>
+    <string name="name12">Une star est née!</string>
+    <string name="name13">Une double bénédiction</string>
+    <string name="off">Handicapé</string>
+    <string name="_15_minute">15 minutes</string>
+    <string name="_30_minute">30 minutes</string>
+    <string name="_1_hour">1 heure</string>
+    <string name="_1_30_hour">1 heure 30 minutes</string>
+    <string name="_2_hour">2 heures</string>
+    <string name="set">Ensemble</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7807956605870387/2744032353</string>
+
+    <string name="msg_version">Nous avons mis à jour votre application. Veuillez mettre à jour votre application pour en savoir plus.</string>
+    <string name="ok_version" >Surclassement</string>
+</resources>
