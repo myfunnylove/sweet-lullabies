@@ -14,7 +14,7 @@
     <string name="mp.fragment.title.local_files">Избранные</string>
     <string name="mp.fragment.title.settings">Таймер</string>
 
-    <string name="mp.activity.title.file_system">SDCard</string>
+    <string name="mp.activity.title.file_system">SDCardg</string>
 
     <!-- Play Lists -->
     <string name="mp.play_list.favorite">Избранные</string>
