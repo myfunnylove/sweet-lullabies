@@ -14,11 +14,9 @@
     <string name="mp.fragment.title.local_files">Избранные</string>
     <string name="mp.fragment.title.settings">Таймер</string>
 
-<<<<<<< HEAD
+
     <string name="mp.activity.title.file_system">СдКард</string>
-=======
-    <string name="mp.activity.title.file_system">SDCardg</string>
->>>>>>> master
+
 
     <!-- Play Lists -->
     <string name="mp.play_list.favorite">Избранные</string>
